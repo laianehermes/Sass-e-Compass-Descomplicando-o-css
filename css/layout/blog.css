@@ -1,0 +1,60 @@
+/** Blog **/
+/* line 2, blog.scss */
+.blog {
+  display: block;
+  position: relative;
+}
+
+/* line 7, blog.scss */
+.blog::after {
+  content: "";
+  background: url(../imagens/fundo.png);
+  background-size: 25px 25px;
+  opacity: .15;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/* line 20, blog.scss */
+.post-destaque,
+.posts-antigos {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+}
+@media mq-mobile {
+  /* line 20, blog.scss */
+  .post-destaque,
+  .posts-antigos {
+    width: auto;
+  }
+}
+
+/* line 31, blog.scss */
+.post-destaque {
+  margin-right: 2em;
+}
+
+/* line 35, blog.scss */
+.post-destaque img {
+  width: 100%;
+}
+
+/* line 39, blog.scss */
+.posts-antigos a {
+  text-decoration: none;
+  color: black;
+  background: url(../imagens/icone-relogio.png) left center no-repeat;
+  padding-left: 2.5em;
+  height: 1.7em;
+  display: block;
+}
+
+/* line 48, blog.scss */
+.posts-antigos a:hover {
+  text-decoration: underline;
+}

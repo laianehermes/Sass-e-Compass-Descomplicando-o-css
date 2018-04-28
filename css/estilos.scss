@@ -1,0 +1,15 @@
+$sprite-spacing: 05px;
+@import '../imagens/sprite/*.png';
+
+@import 'helpers/variaveis.scss';
+@import 'helpers/mixins.scss';
+
+@import 'base/normalize';
+@import 'layout/geral';
+@import 'layout/header';
+@import 'layout/destaque';
+@import 'layout/sobre';
+@import 'layout/planos';
+@import 'layout/blog';
+@import 'layout/contato';
+@import 'layout/footer';
